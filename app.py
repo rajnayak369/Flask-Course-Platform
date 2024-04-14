@@ -1,6 +1,6 @@
 from flask import Flask, request, jsonify
-from course_platform import Platform
-from user import User
+from source.course_platform import Platform
+from source.user import User
 # from flask.helpers import send_from_directory
 from flask_cors import CORS, cross_origin
 

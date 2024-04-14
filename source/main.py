@@ -1,5 +1,5 @@
-from course_platform import Platform
-from user import User
+from .course_platform import Platform
+from .user import User
 
 
 def get_path():

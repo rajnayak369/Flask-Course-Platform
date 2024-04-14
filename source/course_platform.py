@@ -1,5 +1,5 @@
 import heapq
-from course import Course
+from .course import Course
 
 
 class Platform:
