@@ -1,7 +1,7 @@
 from flask import Flask, request, jsonify
 from source.course_platform import Platform
 from source.user import User
-# from flask.helpers import send_from_directory
+from flask.helpers import send_from_directory
 from flask_cors import CORS, cross_origin
 
 app = Flask(__name__, static_folder='frontend/build', static_url_path='')
