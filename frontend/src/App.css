@@ -1,0 +1,111 @@
+
+
+.contact {
+  background: linear-gradient(90.21deg, #5a94db -5.91%, #2a9ecf 111.58%);
+  padding: 20px 0 40px 0;
+  width: 100%;
+}
+.select-react{
+  padding: 5% 0%;
+}
+.contact form input, .contact form select {
+ 
+  margin: 0 0 8px 0;
+  padding: 5px 10px;
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  transition: 0.3s ease-in-out;
+}
+.contact form button {
+  font-weight: 700;
+  color: #000;
+  background-color: #fff;
+  padding: 14px 48px;
+  font-size: 18px;
+  margin-top: 25px;
+  border-radius: 0;
+  position: relative;
+  transition: 0.3s ease-in-out;
+}
+.contact form button span {
+  position: relative;
+}
+.contact form button:hover {
+  color: #fff;
+}
+.contact form button::before {
+  content: "";
+  background: #121212;
+  width: 0;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  transition: 0.3s ease-in-out;
+}
+.contact form button:hover::before {
+  width: 100%;
+}
+
+.align-items-center{
+  display: flex;
+  justify-content: space-around;
+}
+
+.box{
+  background: linear-gradient(90.21deg, rgb(217, 231, 217) -5.91%, rgba(255, 255, 255, 1) 111.58%);
+  border-radius: 24px;
+  padding: 0% 6% 4% 3%;
+  color: #000;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  }
+  .courses{
+    background: linear-gradient(90.21deg, rgb(217, 231, 217) -5.91%, rgba(255, 255, 255, 1) 111.58%);
+    border-radius: 24px;
+    display: flex;
+    justify-content: center;
+    padding: 1%;
+    
+  }
+
+  .vertical-timeline-element-content {
+    box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25),
+      0 0.4em 1.25em 0 rgba(0, 0, 0, 0.15) !important;
+    padding: 1em 1em !important;
+  }
+
+  .courses b{
+    margin-right: 10px;
+  }
+  
+  .ind{
+    justify-content: left !important;
+
+  }
+
+  .path{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -30px;
+  }
+
+  .path1{
+    padding: 5%;
+  }
+  .vertical-timeline-element-icon {
+    left: 38px !important;
+    top: 10px !important;
+    width: 5px !important;
+    height: 5px !important;
+  }
+
+  .vertical-timeline-element {
+    left: -20px;
+    position: relative;
+    margin: 2em 0;
+    width: 10em !important;
+}
+ 
